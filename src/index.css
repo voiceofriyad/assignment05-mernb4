@@ -509,18 +509,18 @@ td button:hover {
     width: 100%;
   }
 
-  .nav-links {
-    flex-direction: column;
-  }
   .container {
     padding: 0.8rem;
   }
   .grid-cols-4 {
     grid-template-columns: 1fr;
   }
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 950px) {
   .product-details {
     flex-direction: row;
     align-items: center;
@@ -576,8 +576,5 @@ td button:hover {
   .cart-total-bar {
     font-size: 1rem;
     text-align: center;
-  }
-  .grid-cols-4 {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
