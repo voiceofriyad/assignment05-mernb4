@@ -17,7 +17,7 @@ function Home() {
     });
 
   return (
-    <div className="p-4 filters">
+    <div className="p-4 filters container">
       <h2 className="text-2xl font-bold mb-4">Products</h2>
       <input
         type="text"
@@ -35,7 +35,7 @@ function Home() {
         <option value="low">Price: Low to High</option>
         <option value="high">Price: High to Low</option>
       </select>
-      <div className="grid grid-cols-4 md:grid-cols-3 gap-4 mt-4 ">
+      <div className="grid grid-cols-4 md:grid-cols-2 gap-4 mt-4 ">
         {filtered.map((product) => (
           <div key={product.id} className="border p-4 rounded shadow card">
             <img

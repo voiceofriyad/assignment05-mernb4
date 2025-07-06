@@ -62,6 +62,20 @@ const products = [
     price: 99.99,
     image: "https://picsum.photos/300/200?random=9",
   },
+  {
+    id: 10,
+    title: "Minimal Lamp",
+    description: "Modern minimal lamp with LED.",
+    price: 29.99,
+    image: "https://picsum.photos/300/200?random=10",
+  },
+  {
+    id: 11,
+    title: "Office Desk",
+    description: "Perfect desk for office or study use.",
+    price: 99.99,
+    image: "https://picsum.photos/300/200?random=11",
+  },
 ];
 
 export default products;
